@@ -2,6 +2,8 @@
 
 FPGA design to help calibrate 10MHz OCXOs to a GPS PPS signal
 
+![A plot of the output]{https:/example.png}
+
 It samples the PPS signal and the 10MHz reference clock at 1Gb/s, 
 and reports the frequency on the serial port (at 115200 baud).
 
